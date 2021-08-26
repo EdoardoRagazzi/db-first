@@ -1,0 +1,13 @@
+AUTO SALE
+
+PK ->   id     ->         BIGINT-Auto-Increment
+       marca   ->         VARCHAR(20)-NOT_NULL
+       modello ->         VARCHAR(20)-NOT_NULL
+       km      ->         MEDIUMINT UNSIGNED-NOT_NULL
+       cilindrata ->      SMALLINT UNSIGNED
+       colore   ->        VARCHAR(13)
+       alimentazione ->   VARCHAR(10)-NOT_NULL
+       targa      ->      VARCHAR(17)-UNIQUE
+       porte     ->       TINYINT UNSIGNED NOT_NULL DEFAULT(3)
+       prezzo    ->       FLOAT(9,2)-NOT-NOT_NULL
+       immagine  ->       VARCHAR(255)-DEFAULT
